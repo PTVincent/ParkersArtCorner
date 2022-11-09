@@ -43,7 +43,6 @@ text-align: center;
 }
 
 .contact-link{
-padding: 1rem;
 font-size: 1.5rem;
 background-color: white;
 color: black;
@@ -149,8 +148,6 @@ font-size: 6em;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 }
-.introduction > p,
-.location > p,
 
 h2 {
   /* Typography Declarations */
