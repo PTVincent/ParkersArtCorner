@@ -1,0 +1,201 @@
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+.masthead {
+padding: 6em 0;
+background-image: url('https://i.imgur.com/yGmrlyg.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+display: inline-block;
+width: 100%;
+height: 100%;
+text-align: center;
+
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+  /* Layout Declarations */
+  color: #ffffff;
+  margin-top: -0.2em;
+  /* Typography Declarations */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 6em;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.contact-link{
+padding: 1rem;
+font-size: 1.5rem;
+background-color: white;
+color: black;
+border-radius: 30px;
+}
+
+.introduction-section{
+right: 0;
+width: 100%;
+font-size: 1.5rem;
+padding-bottom: 5%;
+text-align: center;
+margin: auto;
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+.bio{
+width: 100%;
+height: 100%;
+display: inline;
+margin: auto;
+}
+
+.profile-picture{
+padding-left: 3%;
+padding-top: 3%;
+padding-right: 3% ;
+float: left;
+}
+
+.button{
+padding: 2rem;
+border-radius: 50px;
+color: black;
+margin: 10;
+background-color: white;
+font-size: 1.3rem;
+}
+
+a:hover{
+background-color: rgb(68, 68, 68);
+color: white;
+}
+
+.header{
+  text-align: center;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+.introduction-section > p,
+.location-section > p,
+.questions-section,
+p {
+  /* Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05em;
+}
+
+
+.full{
+  padding-top: 2rem;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin:auto;
+}
+
+.spotify{
+  padding-top: 1rem;
+  width: 500px;
+  height: 900px;
+  margin:auto;
+  display: block;
+}
+
+.masthead-heading,
+.masthead-intro {
+text-align: center;
+}
+
+.masthead {
+background-image: url('../alltogether/WebsiteArt/black.jpg');
+background-size: cover;
+background-color: #000000;
+background-repeat: no-repeat;
+}
+
+.masthead-intro {
+margin-bottom: 0.1em;
+font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+}
+
+.masthead-heading {
+margin-top: 0em;
+font-family: "Open Sans", "Helvetica Neue", sans-serif;
+font-weight: bold;
+font-size: 6em;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+.introduction > p,
+.location > p,
+
+h2 {
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.introduction-section,
+.location-section,
+.questions-section {
+  max-width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+}
+
+
+
+.social > li {
+display: inline-block;
+margin: 0 5px;
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 500px) {
+  .masthead {
+      padding: 3em 0;
+  }
+  .masthead-heading {
+      font-size: 3em;
+  }
+  .profile-picture{
+    padding-left: 5%;
+padding-top: 5%;
+padding-right: 5% ;
+float: left;
+  }
+  
+}
