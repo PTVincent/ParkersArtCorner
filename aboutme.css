@@ -9,6 +9,9 @@ body {
   overflow-x:hidden;
 }
 
+.ul{
+  list-style-type: none;  
+}
 
 .masthead {
 padding: 6em 0;
