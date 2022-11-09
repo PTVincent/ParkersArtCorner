@@ -184,19 +184,3 @@ a {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 900px) {
-  .masthead {
-      padding: 3em 0;
-  }
-  .masthead-heading {
-      font-size: 3em;
-  }
-  
- .bio {
-  max-width:fit-content;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2em;
-}
-  
-}
