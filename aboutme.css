@@ -194,6 +194,8 @@ a {
   margin-right: auto;
   margin-top: 2em;
 }
-  
+  .spotify, 
+  .full{
+    width: 350px;
 }
 
